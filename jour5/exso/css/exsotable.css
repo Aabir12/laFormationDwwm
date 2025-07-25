@@ -1,0 +1,29 @@
+body{
+    width: 50%;
+    margin: auto;
+}
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+}
+.black{
+    background-color: black;
+}
+.grey{
+    background-color: grey;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: rgb(114, 169, 30);
+}

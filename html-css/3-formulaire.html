@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire  HTML</title>
+</head>
+<body>
+    <!-- je déclare mon formulaire avec la balise <form> -->
+        <form>
+            <!-- Deux manière de déclare un label  -->
+            <label for="firstname">Prénom</label>
+            <input type="text" id="firstname" name="first" placeholder="vuillez écrire votre prénom..."/>
+
+            <!--1- for dans le <label> combiné a l'id dans <input> permet de lier nos 2 éléments => accessibilité !  
+                2- type précise le type de donnée récupérée  
+                3. name sera utilisé dans le backend  (php) pour récupérer la valeur de l'input   
+                4. le placeholder est le texte qui apparaît dans le champs de texte 
+                5. required précise au navigateur que le champs de texte est à ça renseigner obligatoirement 
+            -->
+
+
+
+            <label for="surname">
+                Nom de fammille
+                <input type="text" name="familyName" id="surname">
+            </label>
+
+            <!-- mot de passe -->
+            <label for="psw">Mot de passe <span title="le mot de passe est obligatoire...">*</span></label>
+            <!-- le tile sera utile  pour le lecteur décran pour les personnes en situation handicap -->
+            <input type="password" id="psw" name="password" placeholder="mot de passe.." required/>
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" name="mail" id="email">
+
+            <!-- fichier  -->
+            <label for="photo">Image à télécharger</label>
+            <input type="file" name="file" id="photo">
+
+            <!-- cases à cocher: checkbox -->
+            <!-- plusieur choix -->
+            <legend>Quelle destination choisissez-vous ?</legend>
+            <input type="checkbox" id="answer1" name="res1">
+            <label for="answer1">Portugal</label>
+            <input type="checkbox" id="answer2" name="res2" >
+            <label for="answer2">London</label>
+            <input type="checkbox" id="answer3" name="res3" checked>
+            <label for="answer3">america</label>
+
+            <!-- checked => valeur cochée par défaut -->
+             
+            <legend>Qui seront vos accompagnateurs ?</legend>
+            <label for="family">Family</label>
+            <input type="radio" name="fam" id="family">
+
+            <label for="friends">Les amis</label>
+            <input type="radio" name="fam" id="friends">
+
+            <label for="alone">En solitaire</label>
+            <input type="radio" name="fam" id="friends">
+
+            <!-- type radio plus utilisé pour obliger l'utilisateur à choisir une seule réponse -->
+             
+            <br>
+            <br>
+            <br>
+            <label for="msg">Votre message</label>
+            <textarea name="message" id="msg" rows="10" cols="100"></textarea>
+
+            <br>    
+            <!-- envoyer -->
+            <!--préférer l'input type submit pour les form car c'est le seul à pouvoir envoyer le data au backend   -->
+            <input type="submit" value="Envoyer">
+
+            <!-- button va simplement reset la page sans rien envoyer au backend -->
+            <button>Envoyer</button>
+
+            <!-- vider le formulaire  -->
+            <input type="reset" value="Effacer" name="delete">
+        </form>
+</body>
+</html>

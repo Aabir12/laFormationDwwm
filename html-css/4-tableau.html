@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tableau.css">
+    <title>Tableau Html</title>
+    <!-- <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        th,td{
+            border: 1px solid black;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- création du tableau -->
+
+    <table>
+        <!-- titre du tableau  -->
+        <caption>Ventes</caption>
+        <!--en tête du tableau  -->
+        <thead>
+            <!-- tr= tableau rangées / tableau row (t= tabme=tableau / r = row = rangées) -->
+            <tr>
+                <!-- th= titres  des en-têtes -->
+                <th>jour</th>
+                <th>Smartphone</th>
+                <th>Tablette</th>
+                <th>Pc</th>
+            </tr>
+        </thead>
+        <!-- <tfoot> = bas/fin du tableau
+            ! selon les normes W3C on met le tfoot avant le tbody    
+        -->
+        <tfoot>
+            <tr>
+                <!-- <td> table  - data -->
+                <td>Total</td>
+                <td>24</td>
+                <td>12</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+
+        <!-- tbody = corps du tableau -->
+
+        <tbody>
+           
+            <tr>
+                <td>lundi</td>
+                <td>2</td>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>mardi</td>
+                <td>aucun</td>
+                <td>7</td>
+                <td>1</td>
+            </tr>
+            <tr>
+            <td>mecredi</td>
+                <td>2</td>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>jeudi</td>
+                <td>2</td>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>vendredi</td>
+                <td>2</td>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

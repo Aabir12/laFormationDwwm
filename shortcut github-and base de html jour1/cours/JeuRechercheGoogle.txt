@@ -1,0 +1,63 @@
+1. Qu'est-ce que le HTML ?
+HTML, ou HyperText Markup Language, est un langage de balisage utilisé pour structurer et présenter le contenu d'une page web. Il définit la structure des documents web en utilisant des balises pour organiser le texte, les images, les liens, les vidéos, et d'autres éléments interactifs.
+
+2. Qu'est-ce que le CSS ?
+CSS (Cascading Style Sheets) is a stylesheet language used to define the visual presentation and layout of web pages written in markup languages like HTML
+
+3.Comment initialiser un dépôt Git ?
+
+
+4. Comment cloner un dépôt depuis GitHub ?
+Accédez à la page du référentiel GitHub que vous souhaitez cloner.
+Cliquez sur le bouton vert « Code ».
+Copiez l'URL (choisissez HTTPS ou SSH selon votre configuration).
+Ouvrez votre terminal (ou invite de commande).
+Accédez au répertoire dans lequel vous souhaitez cloner le dépôt.
+Exécutez la commande: git clone <repository-url>, remplaçant <repository-url> avec l'URL que vous avez copiée.
+Appuyez sur Entrée et le référentiel sera cloné sur votre machine locale.
+
+
+
+Qu'est-ce que JavaScript ?
+JavaScript est un langage de programmation qui permet d'implémenter des mécanismes complexes sur une page web.
+
+Quelles sont les balises de base du HTML ?
+Balises de premier niveau
+Balises d’en tête
+Balises de structuration du texte
+Balises de listes
+Balises de tableau
+Balises de formulaire
+Balises sectionnantes
+Balises génériques
+Attributs des balises génériques
+
+
+À quoi sert la balise <head> en HTML ?
+La balise <head> en HTML est utilisée pour contenir des métadonnées et des informations générales sur le document web
+
+Quelle est la différence entre front-end et back-end en développement web ?
+Les développeurs front-end s’occupent de l’interface de surface des sites Web, tandis que les développeurs back-end s’occupent de la communication des sites Web avec les bases de données et les serveurs
+
+Quelle est la dernière version stable de PHP ?
+PHP 8.4 est disponible depuis le 21 novembre 2024
+
+Qu'est-ce que PHP ?
+PHP stands for PHP: Hypertext Preprocessor and is a widely-used, open-source scripting language primarily designed for server-side web development. It enables developers to create dynamic and interactive web pages by embedding PHP code within HTML. PHP is executed on the server, and the output is sent to the client as plain HTML, ensuring that the source code remains hidden from users.
+
+
+Qu'est-ce que framework ?
+Un framework est un ensemble d'outils et de composants logiciels organisés selon un plan d'architecture, formant ainsi une structure qui facilite le développement d'applications
+
+Quelle est la dernière version stable de Symfony ?
+7.2.6 (2 mai 2025
+
+Qu'est-ce que Symfony ?
+Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
+
+
+Quelle est la dernière version stable de Bootstrap ?
+5.3.6 (5 mai 2025)
+
+Qu'est-ce que MongoDB ?
+MongoDB is a NoSQL open-source database that stores data in flexible, JSON-like documents. Unlike traditional SQL databases that use tables and rows, MongoDB uses collections and documents, making it ideal for handling unstructured or semi-structured data

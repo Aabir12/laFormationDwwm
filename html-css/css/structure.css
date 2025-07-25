@@ -1,0 +1,21 @@
+body{
+    background-color:darkkhaki;
+}
+
+section{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: chocolate;
+}
+article, .almond p{
+    background-color: blueviolet;
+}
+p{
+    background-color: yellowgreen;
+}
+
+hr{
+    color: black;
+}

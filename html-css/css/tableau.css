@@ -1,0 +1,49 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+caption{
+    font-size: 30px;
+    color: rgb(0, 0, 255);
+    padding: 3px;
+}
+table {
+    border: 3px solid rgb(14, 12, 12);
+    box-shadow: 3px 3px 20px rgb(24, 0, 80);
+    padding: 5px;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+
+th {
+    border: 1px dotted purple;
+    background-color: gainsboro;
+    width: 20%;
+}
+th, td{
+    font-size: 18px;
+    padding: 4px 10px;
+
+}
+td{
+    text-align: center;
+    border: 1px solid rgb(0, 0, 255);
+}
+
+td:first-child{
+    text-align: left;
+    background-color: gainsboro;
+}
+
+
+
+
+
+
+
+

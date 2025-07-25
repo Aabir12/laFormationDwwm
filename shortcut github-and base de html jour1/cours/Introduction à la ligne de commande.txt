@@ -1,0 +1,70 @@
+				Introduction à la ligne de commande
+
+
+Objectifs:
+
+-Naviguer facilement dans une arborescence de dossiers
+
+-Créer et modifier une arborescence
+
+-Copier, déplacer des éléments
+
+-Comprendre les bases des commandes d'un terminal
+
+
+Naviguer dans les répertoires:
+ 
+	1   cd / # permet de se déplacer à la racine du disque sous Linux
+      2   cd users # permet de se déplacer dans le dossier users du dossier courant, s'il existe
+      3   cd .. # permet de se déplacer dans le répertoire parent
+      4   cd /users/admin/desktop # permet d'accéder à un répertoire en utilisant son chemin absolu
+
+
+Lister les éléments dans un répertoire:
+
+      1  ls # permet de lister le contenu du répertoire courant sur Linux et macOS
+      2  dir # permet de lister le contenu du répertoire courant sur Windows
+      3  ls /home/admin/ # permet de lister le contenu du répertoire admin depuis n'importe quel répertoire
+
+
+Création de dossier:
+
+     1  mkdir dossier1 # crée le dossier1 dans le dossier courant
+     2  mkdir C:\users\admin\desktop\dossier1 # créé le dossier1 en utilisant son chemin absolu sous Windows
+     3  mkdir /home/admin/desktop/dossier1 # créé le dossier1 en utilisant son chemin absolu sous Linux et macOS
+
+Création de fichier:
+
+    1  echo "" > texte.txt # permet de créer le fichier nommé "texte.txt" sous Windows
+    2  touch texte.txt # permet de créer le fichier nommé "texte.txt" sous Linux et macOS
+    3  touch /home/admin/desktop/dossier1/texte.txt # crée le fichier "texte.txt" dans le dossier1 pour Linux
+
+Copier un dossier ou fichier:
+
+    1  copy C:\users\admin\desktop\dossier1\texte.txt C:\users\admin\desktop\ # copie le fichier texte.txt vers le répertoire "desktop" en utilisant des chemins absolus pour Windows
+    2  cp /home/admin/desktop/dossier1/texte.txt /home/admin/desktop/ # copie le fichier texte.txt de dossier1 vers le bureau pour Linux
+
+Déplacer ou renommer un fichier ou un dossier:
+
+    1   move C:\users\admin\desktop\dossier1\texte.txt C:\users\admin\desktop\texte.txt # Déplace le fichier texte.txt sans le renommer sous Windows
+    2   move texte.txt texte1.txt # Renomme le fichier texte.txt en texte1.txt sous Windows
+    3   mv /home/admin/desktop/dossier1/texte.txt /home/admin/desktop/texte.txt # Déplace le fichier texte.txt sans le renommer sous Linux et macOS
+    4   mv texte.txt texte1.txt # Renomme le fichier texte.txt en texte1.txt sous Linux et macOS
+
+Supprimer un fichier ou un dossier:
+	
+    1   del C:\users\admin\desktop\texte1.txt # supprime le fichier texte1.txt sur Windows
+    2   rm /home/admin/desktop/texte1.txt # supprime le fichier texte1.txt sur Linux ou macOS
+    3   rmdir repertoire # supprime le répertoire "repertoire" du répertoire courant
+    4   rm -r repertoire # supprime le répertoire "repertoire" et son contenu du répertoire courant	
+    5   rmdir /s C:\users\admin\desktop\dossier1 # supprime le dossier1 et son contenu sur Windows
+    6   rm -r /home/admin/desktop/dossier1 # supprime le dossier1 et son contenu sur Linux
+
+Lire ou écrire un fichier:
+
+   1   start fichier.txt # en utilisant un chemin relatif
+   2   start \users\admin\desktop\texte.txt # en utilisant un chemin absolu
+   3   type fichier.txt # affiche des informations sur le fichier  
+   4    nano fichier.txt   # affiche des informations sur le fichier  Sur Linux ou macOS
+
+Une fois vos modifications effectuées, vous pouvez enregistrer avec Ctrl+O et sortir de l'éditeur avec Ctrl+X.

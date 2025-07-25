@@ -1,0 +1,42 @@
+Exercices Pratiques
+A. Création d'une Structure de Dossiers
+
+Créez un dossier appelé "Projet_Terminal".
+
+mkdir Projet_Terminal
+
+Accédez à ce dossier.
+
+cd Projet_Terminal
+
+
+B. Création et Manipulation de Fichiers
+
+Créez un fichier appelé "index.html".
+
+touch index.html
+
+Déplacez ce fichier dans un dossier appelé "Site_Web".
+
+mv index.html Site_Web/
+
+Dupliquez le fichier "index.html" dans le même dossier.
+
+cp Site_Web/index.html Site_Web/index_copy.html
+
+
+C. Édition de Fichiers
+
+Ouvrez le fichier "index.html" 
+
+Ajoutez le texte suivant dans le fichier :
+<html>
+<head>
+<title>Mon Site Web</title>
+</head>
+<body>
+<h1>Bienvenue sur mon site !</h1>
+</body>
+</html>
+
+Enregistrez et lancer le fichier sur le navigateur.
