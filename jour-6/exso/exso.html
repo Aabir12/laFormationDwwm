@@ -4,23 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            height: 100%;
-        }
-        header{
-            position: sticky;
-            background-color: red;
-            text-align: center;
-            padding: 50px 0;
-        }
-      #gauche{
-        float: left;
-        width: 20%;
-        height: 50vh;
-
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -28,31 +13,36 @@
     </header>
     <main>
         <aside id="gauche">
-            <p>
-                
-                Zone de gauche 
-            </p>
+            <div>
+                <p>  
+                    Zone de gauche 
+                </p>
+            </div>
         </aside>
 
-            <div class="container">
-                <div class="green">Zone 1</div>
+        <div class="container">
+            <div class="green">Zone 1</div>
             <div class="green">Zone 2</div>
             <div class="green">Zone 3</div>
             <div class="green">Zone 4</div>
             <div class="green">Zone 5</div>
-            </div>
-
-        <aside id="droite">
-           <p>
                 
-                Zone de gauche 
+            
+            <footer>
+                <p>zone de bas
+                </p>
+            </footer>
+        </div>
+        <aside id="droite">
+           <div>
+            <p>
+               &copy; Zone de droite 
             </p>
+           </div>
         </aside>
     </main>
 
-    <!-- <footer>
-        Zone de bas 
-    </footer> -->
+     <script>document.querySelector("body").style = "background-color: #454545;"</script>
 
 </body>
 </html>
