@@ -1,0 +1,45 @@
+body {
+	font-family: "Arial", sans-serif;
+}
+
+.card a,
+button {
+	background-color: #a77428 !important;
+	border: 1px solid #a77428 !important;
+}
+
+header {
+	height: 450px !important;
+	background-image: url("../images/banner-buisnessman.jpg");
+	background-size: cover;
+	/* color: white; */
+}
+
+header .btn {
+	background-color: #a77428;
+	border: none;
+}
+
+.card img {
+	height: 200px;
+	object-fit: cover;
+}
+
+.employee-card img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+.title-contact {
+	font-size: 2.2rem;
+}
+
+footer {
+	background-color: gray !important;
+}

@@ -1,0 +1,47 @@
+body {
+	background-color: antiquewhite;
+}
+
+tbody {
+	padding: 200px;
+}
+
+tr,
+td {
+	border: 1px solid black;
+}
+
+td {
+	width: 30px;
+	height: 30px;
+	border: 1px solid darkgray;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+.white {
+	background-color: white;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.black {
+	background-color: black;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.grass {
+	background-color: green;
+}

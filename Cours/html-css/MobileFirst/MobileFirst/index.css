@@ -1,0 +1,88 @@
+/* Style mobile (425px) */
+*{
+    margin: 0 auto;
+ }
+ 
+ body >nav  {
+    background-color: aqua;
+}
+
+
+main {
+    width: 80vh;
+    height: 100vh;
+    
+}
+
+footer {
+    background-color: rgb(37, 218, 37);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  
+} 
+
+ul {
+    list-style: none;
+}
+
+main >div  {
+    width: 25em;
+    height: 20em;
+}
+
+ div:nth-child(1) {
+    background-color: brown;
+}
+
+main >div:nth-child(2) {
+     background-color: red;
+}
+
+
+
+div:nth-child(3){
+     background-color: yellow;
+
+}
+
+div:nth-child(4){
+    background-color: pink;
+
+} 
+
+/*  Reponsive entre 425px et 768px */
+@media screen and (min-width:425px) and (max-width:768px) {
+     main {
+        display: flex;
+        flex-flow: wrap row;
+        gap: 15px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:768px) {
+    main {
+        display: flex;
+        flex-flow: wrap row;
+        gap: 15px;
+        justify-content: space-around;
+    }
+     
+}
+
+
+/*  Reponsive minimum à partir de  1440px */
+@media screen and (min-width:1440px) {
+    main>div {
+        width: 20em;
+    }
+}
+
+
+
+
+
+
+
+

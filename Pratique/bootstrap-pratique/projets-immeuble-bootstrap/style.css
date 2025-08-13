@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.heroor{
+    background-image: url("images_immo/banner-buisnessman.jpg");
+    background-position: left;
+    background-size: cover;
+    min-height: 350px;
+}
+
+
+
+.bg-golden-dark{
+    background-color: rgb(168, 128, 25);
+
+}
+.h{
+    /* background-color: white; */
+    color: white;
+}
+.card-menu-img{
+    width: 100%;
+    height: 20em;
+}
+
+.img-worker{
+    object-fit: cover;
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+}
+.contact input, .contact textarea {
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .contact{
+        width: 50%;
+    }
+}

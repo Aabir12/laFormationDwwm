@@ -1,0 +1,15 @@
+Qu'est-ce que le HTML ?
+Qu'est-ce que le CSS ?
+Comment initialiser un dépôt Git ?
+Comment cloner un dépôt depuis GitHub ?
+Qu'est-ce que JavaScript ?
+Quelles sont les balises de base du HTML ?
+À quoi sert la balise <head> en HTML ?
+Quelle est la différence entre front-end et back-end en développement web ?
+Quelle est la dernière version stable de PHP ?
+Qu'est-ce que PHP ?
+Qu'est-ce que framework ?
+Quelle est la dernière version stable de Symfony ?
+Qu'est-ce que Symfony ?
+Quelle est la dernière version stable de Bootstrap ?
+Qu'est-ce que MongoDB ?

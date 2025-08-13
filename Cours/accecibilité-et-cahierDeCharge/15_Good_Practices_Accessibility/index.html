@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Balise meta viewport manquante pour le responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Balise meta description pour les moteurs de recherche -->
+    <meta name="description"
+        content="Plateforme éducative pour apprendre les bases de l'accessibilité. Accessibilité, web, cuisine, repas, healthy'">
+    <title>Mauvaises Pratiques d'Accessibilité</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Premier titre de niveau h1 -->
+        <!-- <h2>Bienvenue sur notre site</h2> -->
+        <h1>Bienvenue sur notre site</h1>
+    </header>
+
+    <!-- Trop de balises non sémantiques => div -->
+
+    <section>
+        <!-- <div> -->
+        <article>
+            <!-- <div> -->
+            <h2>Introduction</h2>
+            <p>Ce site est un exemple de mauvaises pratiques en accessibilité.</p>
+            <p>À vous de les trouver !</p>
+            <!-- Mettre des description dans les alt -->
+            <img src="img/bonhomme_de_neige.jpg"
+                alt="Bonhomme de neige dans un paysage enneigé avec des enfants qui jouent arrière plane'">
+            <!-- </div> -->
+        </article>
+
+        <article>
+            <!-- <div> -->
+            <h2>Nos services</h2>
+            <p>Nous offrons une variété de services pour répondre à vos besoins.</p>
+            <div>
+                <!-- Niveau h3 pour parler d'un service en particulier parmis tous les services -->
+                <h3>Service 1</h3>
+                <p>Voici une description de notre premier service.</p>
+                <img src="img/plage.jpg" alt="Plage sur ile exotique avec cabanon et palmiers au centre'">
+            </div>
+            <div>
+                <h3>Service 2</h3>
+                <p>Voici une description de notre deuxième service.</p>
+            </div>
+            <!-- </div> -->
+        </article>
+
+        <article>
+            <!-- <div> -->
+            <!-- On reste sur du h2 -->
+            <h2>Contactez-nous</h2>
+            <p>Envoyez-nous un email pour plus d'informations.</p>
+
+            <form action="#" method="post">
+
+                <label for="name">Nom :</label>
+                <input type="text" name="nom" id="name">
+
+                <!-- Aria-label quand notre input n'a pas de champs label direct -->
+                <input type="text" aria-label="Nom">
+
+                <label for="email">Adresse email :</label>
+                <input type="email" name="email" id="email" required aria-required="true">
+
+                <label for="subject">Sujet :</label>
+                <select name="sujet" id="subject">
+                    <option value="support">Support</option>
+                    <option value="avis">Avis</option>
+                    <option value="autre">Autre</option>
+                </select>
+
+                <label for="msg">Message :</label>
+                <textarea name="message" id="msg" rows="5" required aria-required="true"></textarea>
+
+                <!-- <button type="submit">Envoyer</button> -->
+                <input type="submit" value="Send" />
+
+            </form>
+
+            <!-- Soyons plus précis sur les liens -->
+            <!-- <a href="https://www.zara.com/fr/">Voir ici</a> -->
+            <a href="https://www.zara.com/fr/" target="_blank">Aller sur le site de Zara</a>
+            <!-- </div> -->
+        </article>
+        <!-- </div> -->
+
+        <!-- Role image pour que le lecteur d'écran informe l'utilise -->
+        <div role="img" aria-label="Description de l'image car remplace le alt'">
+            <!-- image en background via CSS -->
+        </div>
+    </section>
+
+    <footer>
+        <!-- <h3>&copy; 2024 Notre Entreprise</h3> -->
+        <!-- pas besoin de titre ici -->
+        <p>&copy; 2024 Notre Entreprise</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+header {
+	background-color: #9933cc;
+	padding: 20px;
+}
+
+h1 {
+	text-indent: -400px;
+}
+
+main {
+	height: 100vh;
+}
+.zone_1 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 0 25px;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.navbar ul {
+	list-style-type: none;
+}
+
+.navbar li {
+	padding: 8px;
+	margin-bottom: 7px;
+	background-color: #33b5e5;
+	color: #ffffff;
+	/* effet d'ombres */
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.center {
+	padding: 20px;
+}
+
+.center h2 {
+	padding: 15px;
+}
+
+.aside {
+	background-color: #33b5e5;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	padding: 25px;
+}
+
+.zone_2 {
+	display: flex;
+	margin-top: 30px;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 100%;
+}
+
+[class*="col-"] {
+	/*on va selectionner toutes les classes qui ont un prefixe col-*/
+	padding: 15px;
+}
+
+footer {
+	padding: 25px;
+	background-color: #33b5e5;
+	color: #fff;
+}
+
+/***************partie tablette*****************/
+@media screen and (max-width: 768px) {
+	/*Là, on travaille sur les ecrans de moins de 768px*/
+	main {
+		height: fit-content;
+	}
+	header {
+		background-color: orangered;
+	}
+
+	.zone_1 {
+		flex-wrap: wrap; /* ici on peut utiliser aussi display:block*/
+	}
+
+	.col-3 {
+		width: 100%;
+	}
+
+	.col-6 {
+		width: 100%;
+	}
+
+	.img {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	/*Là, on travaille sur les ecrans de moins de 425px*/
+	.zone_2 {
+		flex-direction: column;
+	}
+	.img {
+		width: 100%;
+	}
+}
