@@ -1,0 +1,29 @@
+main > section{
+    width: 60%;
+    margin: auto ;
+    background-color: rgba(128, 128, 128, 0.096);
+
+}
+main > section h2 {
+    font-size: 2.5em;
+    margin: 0 0;
+    padding: 30px;
+    color: #212157;
+
+}
+
+main section article h3 {
+    font-size: 1.5em;
+    color: rgb(6, 6, 83);
+    text-shadow: 2px 2px 5px rgb(16, 0, 247);
+    padding-left: 1em;
+}
+
+main section article {
+    background: rgb(225, 255, 180);
+    padding: 10px;
+    
+}
+main section article:first-of-type{
+    margin-bottom: 40px;
+}

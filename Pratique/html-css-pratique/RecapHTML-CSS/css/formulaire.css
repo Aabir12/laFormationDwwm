@@ -1,0 +1,45 @@
+section{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.123);
+    margin: auto;
+    padding: 2em;
+}
+
+form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #283647;
+    padding: 1em;
+    border-radius: 1em;
+    color: white;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+input{
+    width: 25%;
+    margin-right: 25%;
+}
+
+form>div{
+    display: flex;
+}
+
+textarea{
+    width: 50%;
+}
+
+form>div:nth-of-type(2){
+    display: flex;
+    justify-content: left;
+}
+
+form>div:nth-of-type(2) input{
+    margin:0;
+}

@@ -1,0 +1,36 @@
+section{
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+article{
+    background-color: #D5F69D;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+video{
+    width: 100%;
+}
+
+.video>div{
+    width: fit-content;
+    position: relative;
+}
+
+.video>div>p{
+    position: absolute;
+    width: 50%;
+    top: 35%;
+    left: 25%;
+    background-color: rgba(240, 248, 255, 0.582);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+#son{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

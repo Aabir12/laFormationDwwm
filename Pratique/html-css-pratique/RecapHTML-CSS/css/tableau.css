@@ -1,0 +1,32 @@
+h2{
+    margin: 0;
+    padding: 1em 0 2em 1em;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 70%;
+    margin: auto;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: rgb(127, 255, 144);
+    width: 70%;
+    margin: auto;
+}
+
+article{
+    background-color: rgb(127, 255, 144);
+    padding: 1em;
+}
+
+thead, tfoot{
+    background-color: aliceblue;
+}
+
+td, th{
+    border: 1px rgb(57, 159, 255) solid;
+    padding: 0.5em;
+    text-align: center;
+}

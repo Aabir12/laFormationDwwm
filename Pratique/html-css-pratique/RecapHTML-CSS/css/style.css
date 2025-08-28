@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+ main > section{
+    width: 60%;
+    margin: auto ;
+    background-color: rgba(128, 128, 128, 0.096);
+
+}
+
+
+
+main .image-monkey{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+#direction-marquee{
+    width: 50%;
+    margin: auto;
+}

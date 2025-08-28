@@ -1,0 +1,128 @@
+main > section{
+    width: 60%;
+    margin: auto ;
+    background-color: rgba(128, 128, 128, 0.096);
+
+}
+article{
+    padding-bottom: 40px;
+}
+#first-taff {
+    position: relative;
+}
+#first-taff h3{
+    margin: 0;
+    padding-top: 2em;
+}
+.carré-orrangeFirst{
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-color: orange;
+}
+
+#div-center-sky-weird-color{
+    height: 8em;
+    width: 60%;
+    background-color: rgb(19, 163, 163);
+    margin: 10px auto;
+}
+
+#bg-article-blue-relative{
+    position: relative;
+    left: 6em;
+    width: 55%;
+    height: 30vh;
+    background-color: blue;
+}
+#bg-article-blue-relative >div {
+    width: 35px;
+    height: 35px;
+    background-color: blanchedalmond;
+    position: absolute;
+    right: 0;
+}
+.percent1 {
+    background-color: brown;
+    /* height: 2em; */
+    width: 30%;
+    margin-bottom: 5px;
+}
+.percent2 {
+    background-color: rgb(114, 21, 60);
+    /* height: 2em; */
+    width: 50%;
+    margin-bottom: 5px;
+
+}
+.percent3 {
+    background-color: rgb(223, 171, 122);
+    /* height: 2em; */
+    width: 100%;
+}
+.percent1 p , .percent2 p , .percent3 p {
+    padding: 15px;
+}
+
+#float div{
+    width: 6em;
+    height: 6em;
+    border: 2px solid rgb(88, 0, 37);
+    text-align: center;
+    background-color: rgb(228, 192, 93);
+    float: left;
+    margin: 5px;
+}
+#float div p {
+    margin: 0 auto;
+}
+.clear, #float{
+    clear: both;
+}
+.bg-black-width-98{
+    background-color: rgb(46, 46, 51);
+    width: 95%;
+    margin: 0 auto;
+    height: 20vh;
+    padding: 50px 0;
+}
+.bg-black-width-98 > div {
+    width: 25%;
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+   
+}
+.bg-black-width-98 #ex-float-div1{
+    background-color: rgb(42, 42, 87);
+}
+.bg-black-width-98 #ex-float-div2{
+    background-color: rgb(218, 223, 153);
+}
+.bg-black-width-98 #ex-float-div3{
+    background-color: rgb(247, 148, 82);
+}
+.bg-black-width-98 #ex-float-div4{
+    background-color: rgb(71, 39, 35);
+}
+
+#display-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#display-flex div {
+    width: 5em;
+    height: 5em;
+    background-color: blue;
+}
+#display-flex p {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}

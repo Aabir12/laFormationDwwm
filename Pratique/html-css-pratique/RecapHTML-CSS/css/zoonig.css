@@ -1,0 +1,45 @@
+main > section{
+    width: 60%;
+    margin: auto ;
+    background-color: rgba(128, 128, 128, 0.096);
+
+}
+h2 {
+    margin: 5px 5px 30px 5px;
+}
+article {
+    width: 100%;
+    background-color: rgb(222, 255, 172);
+}
+article  p {
+    padding: 20px 15px 10px 20px;
+}
+article > div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.zone-yeallo-100{
+    width: 100%;
+    background-color: rgb(255, 255, 112);
+    height: 3em;
+}
+
+.flex-22{
+    display: flex;
+}
+.flex-22 div{
+    height: 50vh;
+}
+
+.flex-22 > div {
+    width: 30%;
+    background-color: rgb(116, 192, 141);
+}
+.flex-22 div:nth-of-type(2){
+    background-color: #d12929;
+    width: 70%;
+}
